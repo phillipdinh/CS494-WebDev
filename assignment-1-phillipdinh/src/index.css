@@ -1,0 +1,29 @@
+.leftColumn {
+  float: left;
+  width: 50%;
+}
+
+.rightColumn {
+  float: right;
+  width: 50%;
+}
+
+.form {
+  max-width: 200px;
+}
+
+.image {
+  margin-right: 100%;
+}
+.close {
+  min-width: 30px;
+  max-height: 20px;
+}
+.card-footer {
+  display: flex;
+}
+
+.caption {
+  margin-top: 0;
+  padding-left: 6px;
+}

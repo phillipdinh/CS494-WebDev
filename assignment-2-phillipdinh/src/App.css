@@ -1,0 +1,45 @@
+.active {
+  background-color: slategray;
+}
+
+.side-bar > * {
+  display: block;
+}
+
+.side-bar {
+  padding: 0;
+  margin: 0;
+  background-color: bisque;
+  max-width: 167px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.side-bar-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 6px 0 8px 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.current {
+  position: absolute;
+  left: 188px;
+  top: 60px;
+}
+
+.home-world > * {
+  float: left;
+  width: 100px;
+  margin: 0 0 16px 0;
+}
+
+.home-link {
+  width: 250px;
+}
+
+.home-page {
+  margin-left: 10px;
+}
